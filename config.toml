@@ -1,0 +1,53 @@
+baseURL = "http://shib.net.in/"
+languageCode = "en-us"
+title = "Shib's Personal Site!"
+theme = "archie"
+paginate = 3 
+Copyright = "© Shib 2023"
+canonifyurls = true
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+mode = "auto"
+useCDN = false
+subtitle = "SRE, Ops and Automation!"
+mathjax = true
+katex = true
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/shibhikkiran"
+
+[[menu.main]]
+name = "Home"
+weight = 1
+identifier = "home"
+pre = "<br />"
+url = "/"
+
+[[menu.main]]
+name = "Posts"
+weight = 2 
+identifier = "posts"
+pre = "<br />"
+url = "/posts"
+
+[[menu.main]]
+name = "Tags"
+weight = 3 
+identifier = "tags"
+pre = "<br />"
+url = "/posts"
+
+
+[[menu.main]]
+name = "About"
+weight = 4 
+identifier = "about"
+pre = "<br />"
+url = "/about"
+
