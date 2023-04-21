@@ -11,7 +11,7 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 [params]
-	mode = "auto"
+	mode = "toggle"
 	useCDN = false
 	subtitle = "All things about SRE, DevOps and Automation!"
 	mathjax = true
