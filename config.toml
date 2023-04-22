@@ -16,6 +16,7 @@ pygmentscodefencesguesssyntax = true
 	subtitle = "All things about SRE, DevOps and Automation!"
 	mathjax = true
 	katex = true
+        favicon = "/favicon-16x16.png"
 
 [[params.social]]
 name = "GitHub"
