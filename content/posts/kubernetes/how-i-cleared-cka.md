@@ -11,7 +11,7 @@ CKA (Certified Kubernetes Administrator) exam is a problem-based exam, and you'l
 
 You can buy exam from [Linux Foundation](https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/) and the best time to buy will be around Black Friday as you get some serious discounts. 
 
-| Topics         |  % Coverage
+| Topics         |  % Weightage 
 |----------------|-----------------------------|
 |Troubleshooting cluster, nodes, deployments  |`30%`                        |
 |Cluster Architecture, Installation & Configuration|`25%` |         
@@ -29,29 +29,30 @@ You are allowed use only 2 reference docs [Kubernetes Docs](https://kubernetes.i
 
 ## Topics to be focused
 
-- **Troubleshooting (30%)** - covers cluster components/services/deployments/pods failure scenarios.
-  * Cluster component failure 
-    * pods in kube-system namespace failed/errors out etc
-    * API server is down/failed
-  * Service endpoint failure or connection errors
-  * Understand how to monitor applications
-  * Manage container stdout & stderr logs
-  * Troubleshoot application failure
-  * Troubleshoot cluster component failure
-  * Troubleshoot networking
+  - Troubleshooting (30%) - covers cluster components/services/deployments/pods failure scenarios.
+      * Cluster component failure 
+        * pods in kube-system namespace failed/errors out etc
+        * API server is down/failed
+      * Service endpoint failure or connection errors
+      * Understand how to monitor applications
+      * Manage container stdout & stderr logs
+      * Troubleshoot application failure
+      * Troubleshoot cluster component failure
+      * Troubleshoot networking
 
-- **Cluster Architecture, Installation & Configuration (25%)**
-   * Manage role based access control (RBAC)
-   * Use Kubeadm to install a basic cluster
-   * Manage a highly-available Kubernetes cluster
-   * Provision underlying infrastructure to deploy a Kubernetes cluster
-   * Perform a version upgrade on a Kubernetes cluster using Kubeadm
-   * Implement etcd backup and restore
+  - Cluster Architecture, Installation & Configuration (25%)
+      * Manage role based access control (RBAC)
+      * Use Kubeadm to install a basic cluster
+      * Manage a highly-available Kubernetes cluster
+      * Provision underlying infrastructure to deploy a Kubernetes cluster
+      * Perform a version upgrade on a Kubernetes cluster using Kubeadm
+      * Implement etcd backup and restore
 
-- How to manipulate `kubectl get` command output data using:
-  *  filtering using `jsonpath`
-  * sorting using `--sort-by`
-  * custom columns using `--custom-columns`
+  - How to manipulate `kubectl get` command output data using:
+      * filtering using `jsonpath`
+      * sorting using `--sort-by`
+      * custom columns using `--custom-columns`
+
 
 ## Must Read Books 
 
@@ -71,27 +72,27 @@ You are allowed use only 2 reference docs [Kubernetes Docs](https://kubernetes.i
   * Few sets of questions but good to have. 
    
 
-## Useful Command Aliases
+## Useful Shell Aliases and Environment variables
 
 You will be given a base CLI terminal in your exam and set below aliases, environment variables for faster command execution. Time management is crucial so these shortcuts help a lot. 
-```
-alias k=kubectl                                               # will already be pre-configured
-alias kn='kubectl config set-context --current --namespace '  # kn mynamespace
-alias kp='kubectl get pods'                                   # kp / kp my-pod-name
-alias kd='kubectl get deploy'                                 # kd / kd my-deploy-name
-alias ks='kubectl get svc'                                    # ks / kp my-service-name
-alias ka='kubectl get all'                                    # ka / ka -A
+```console
+$ alias k=kubectl                                               # will already be pre-configured
+$ alias kn='kubectl config set-context --current --namespace '  # kn mynamespace
+$ alias kp='kubectl get pods'                                   # kp / kp my-pod-name
+$ alias kd='kubectl get deploy'                                 # kd / kd my-deploy-name
+$ alias ks='kubectl get svc'                                    # ks / kp my-service-name
+$ alias ka='kubectl get all'                                    # ka / ka -A
 ```
 
 ```
-export dr="--dry-run=client -o yaml"     # k create deploy nginx --image=nginx $dr
-export now="--force --grace-period 0"    # k delete pod x $now
+$ export dr="--dry-run=client -o yaml"     # k create deploy nginx --image=nginx $dr
+$ export now="--force --grace-period 0"    # k delete pod x $now
 ```
 
 ## Tips/Hints for exam
 
-* Each question is given a kubernetes context. Please ensure to first set the context before even going through the question.
-* Each question is given a % mark weightage.  So, spend more time on higher weightage questions (i.e mostly troubleshooting, cluster install/setup related questions)
-* Do not get stuck or spend too much time on a single question. If you start to feel like stuck on a question for more than 5 minutes without any progress, flag (using button at the bottom) that question and move on. 
-* Tackle the flagged (i.e unsolved) questions at the end.
+  * Each question is given a kubernetes context. Please ensure to first set the context before even going through the question.
+  * Each question is given a % mark weightage (i.e ranges between 2% - 13% etc).  So, spend more time on higher weightage questions (i.e mostly troubleshooting, cluster install/setup related questions)
+  * Do not get stuck or spend too much time on a single question. If you start to feel like stuck on a question for more than 5 minutes without any progress, flag (using button at the bottom) that question and move on. 
+  * Tackle the flagged (i.e unsolved) questions at the end.
 
