@@ -29,7 +29,7 @@ You are allowed use only 2 reference docs [Kubernetes Docs](https://kubernetes.i
 
 ## Topics to be focused
 
-* **Troubleshooting (30%)** - covers cluster components/services/deployments/pods failure scenarios.
+- **Troubleshooting (30%)** - covers cluster components/services/deployments/pods failure scenarios.
   * Cluster component failure 
     * pods in kube-system namespace failed/errors out etc
     * API server is down/failed
@@ -40,7 +40,7 @@ You are allowed use only 2 reference docs [Kubernetes Docs](https://kubernetes.i
   * Troubleshoot cluster component failure
   * Troubleshoot networking
 
-* **Cluster Architecture, Installation & Configuration (25%)**
+- **Cluster Architecture, Installation & Configuration (25%)**
    * Manage role based access control (RBAC)
    * Use Kubeadm to install a basic cluster
    * Manage a highly-available Kubernetes cluster
@@ -48,7 +48,7 @@ You are allowed use only 2 reference docs [Kubernetes Docs](https://kubernetes.i
    * Perform a version upgrade on a Kubernetes cluster using Kubeadm
    * Implement etcd backup and restore
 
-* How to manipulate `kubectl get` command output data using:
+- How to manipulate `kubectl get` command output data using:
   *  filtering using `jsonpath`
   * sorting using `--sort-by`
   * custom columns using `--custom-columns`
