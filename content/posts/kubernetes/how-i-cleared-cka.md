@@ -55,8 +55,8 @@ You are allowed use only 2 reference docs [Kubernetes Docs](https://kubernetes.i
 
 ## Must Read Books 
 
-  * [Certified Kubernetes Administrator (CKA) Study Guide](https://learning.oreilly.com/library/view/certified-kubernetes-administrator/9781098107215/) from O'Reilly.
-  * [Kubernetes Up and Running](https://learning.oreilly.com/library/view/kubernetes-up-and/9781098110192/) from O’Reilly.
+    - [Certified Kubernetes Administrator (CKA) Study Guide](https://learning.oreilly.com/library/view/certified-kubernetes-administrator/9781098107215/) from O'Reilly.
+    - [Kubernetes Up and Running](https://learning.oreilly.com/library/view/kubernetes-up-and/9781098110192/) from O’Reilly.
 
 
 ## Lab/Simulator Practices
