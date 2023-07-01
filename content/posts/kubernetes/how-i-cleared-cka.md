@@ -29,29 +29,29 @@ You are allowed use only 2 reference docs [Kubernetes Docs](https://kubernetes.i
 
 ## Topics to be focused
 
-  - Troubleshooting (30%) - covers cluster components/services/deployments/pods failure scenarios.
-      * Cluster component failure 
-        * pods in kube-system namespace failed/errors out etc
-        * API server is down/failed
-      * Service endpoint failure or connection errors
-      * Understand how to monitor applications
-      * Manage container stdout & stderr logs
-      * Troubleshoot application failure
-      * Troubleshoot cluster component failure
-      * Troubleshoot networking
+  - **Troubleshooting (30%)** - covers cluster components/services/deployments/pods failure scenarios.
+      - Cluster component failure 
+          - pods in kube-system namespace failed/errors out etc
+          - API server is down/failed
+      - Service endpoint failure or connection errors
+      - Understand how to monitor applications
+      - Manage container stdout & stderr logs
+      - Troubleshoot application failure
+      - Troubleshoot cluster component failure
+      - Troubleshoot networking
 
-  - Cluster Architecture, Installation & Configuration (25%)
-      * Manage role based access control (RBAC)
-      * Use Kubeadm to install a basic cluster
-      * Manage a highly-available Kubernetes cluster
-      * Provision underlying infrastructure to deploy a Kubernetes cluster
-      * Perform a version upgrade on a Kubernetes cluster using Kubeadm
-      * Implement etcd backup and restore
+  - **Cluster Architecture, Installation & Configuration (25%)** - includes cluster install/setup, join nodes, backup/restore etcd scenarios.
+      - Manage role based access control (RBAC)
+      - Use Kubeadm to install a basic cluster
+      - Manage a highly-available Kubernetes cluster
+      - Provision underlying infrastructure to deploy a Kubernetes cluster
+      - Perform a version upgrade on a Kubernetes cluster using Kubeadm
+      - Implement etcd backup and restore
 
   - How to manipulate `kubectl get` command output data using:
-      * filtering using `jsonpath`
-      * sorting using `--sort-by`
-      * custom columns using `--custom-columns`
+      - filtering using `jsonpath`
+      - sorting using `--sort-by`
+      - custom columns using `--custom-columns`
 
 
 ## Must Read Books 
@@ -84,7 +84,7 @@ $ alias ks='kubectl get svc'                                    # ks / kp my-ser
 $ alias ka='kubectl get all'                                    # ka / ka -A
 ```
 
-```
+```console
 $ export dr="--dry-run=client -o yaml"     # k create deploy nginx --image=nginx $dr
 $ export now="--force --grace-period 0"    # k delete pod x $now
 ```
