@@ -1,6 +1,6 @@
 ---
 title: "Kubernetes: How I cleared CKA exam?"
-date: 2023-06-31T12:13:32+05:30
+date: 2023-06-30T12:13:32+05:30
 description: "Certified Kubernetes Administrator"
 tags: [kubernetes]
 ---
