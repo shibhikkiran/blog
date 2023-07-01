@@ -28,8 +28,7 @@ During exam, you will get Linux desktop using remote VDI. You have to work mostl
 You are allowed use only 2 reference docs [Kubernetes Docs](https://kubernetes.io/docs) and [Kubernetes Blog](https://kubernetes.io/blog). Please be aware that you can technically access google or other internet sites, but it violates exam code of conduct and then your exam session will be automatically be closed.
 
 ## Topics to be focused
-
-  - Troubleshooting (30%) - covers cluster components/services/deployments/pods failure scenarios.
+  1. Troubleshooting (30%) - covers cluster components/services/deployments/pods failure scenarios.
       - Cluster component failure 
           - pods in kube-system namespace failed/errors out etc
           - API server is down/failed
@@ -40,7 +39,7 @@ You are allowed use only 2 reference docs [Kubernetes Docs](https://kubernetes.i
       - Troubleshoot cluster component failure
       - Troubleshoot networking
 
-  - Cluster Architecture, Installation & Configuration (25%) - includes cluster install/setup, join nodes, backup/restore etcd scenarios.
+  2. Cluster Architecture, Installation & Configuration (25%) - includes cluster install/setup, join nodes, backup/restore etcd scenarios.
       - Manage role based access control (RBAC)
       - Use Kubeadm to install a basic cluster
       - Manage a highly-available Kubernetes cluster
@@ -48,7 +47,7 @@ You are allowed use only 2 reference docs [Kubernetes Docs](https://kubernetes.i
       - Perform a version upgrade on a Kubernetes cluster using Kubeadm
       - Implement etcd backup and restore
 
-  - How to manipulate `kubectl get` command output data using:
+  3. How to manipulate `kubectl get` command output data using:
       - filtering using `jsonpath`
       - sorting using `--sort-by`
       - custom columns using `--custom-columns`
